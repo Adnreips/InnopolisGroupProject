@@ -9,9 +9,6 @@ import ru.innopolis.models.User;
 import java.util.Collection;
 import java.util.Collections;
 
-/**
- *
- */
 
 public class UserDetailsImpl implements UserDetails {
 

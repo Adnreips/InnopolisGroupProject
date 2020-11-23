@@ -16,11 +16,6 @@ import org.springframework.security.web.authentication.rememberme.PersistentToke
 
 import javax.sql.DataSource;
 
-/**
- *
- *
- * @author
- */
 
 @Configuration
 @ComponentScan("ru.innopolis")

@@ -5,11 +5,6 @@ import ru.innopolis.forms.UserForm;
 import javax.persistence.*;
 import java.util.List;
 
-/**
- * User pojo
- *
- * @author Artyr Gilyazov
- */
 
 @ToString
 @Data

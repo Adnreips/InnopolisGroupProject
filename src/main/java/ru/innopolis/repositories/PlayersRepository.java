@@ -9,9 +9,6 @@ import java.util.List;
 import java.util.Optional;
 
 
-/**
- * @author
- */
 
 public interface PlayersRepository extends JpaRepository<Player, Long> {
     Player findByNickName(String nickName);

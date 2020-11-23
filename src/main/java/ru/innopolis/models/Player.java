@@ -3,17 +3,8 @@ package ru.innopolis.models;
 import lombok.*;
 import ru.innopolis.services.games.Game;
 import ru.innopolis.services.games.Play;
-import javax.persistence.*;
-import java.security.Timestamp;
 
-/**
- * Player pojo
- *
- * @author "Andrei Prokofiev"
- * @author Artyr Gilyazov
- * <p>
- * добавил навыки
- */
+import javax.persistence.*;
 
 
 @ToString

@@ -9,7 +9,5 @@ package ru.innopolis.services.games;
 public abstract class Game{
 
     public abstract int executeGame();
-//    public int playAgain(Game game) {
-//        return 0;
-//    }
+
 }

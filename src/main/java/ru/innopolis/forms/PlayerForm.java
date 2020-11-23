@@ -1,8 +1,8 @@
 package ru.innopolis.forms;
 
 import lombok.Data;
-
 import javax.validation.constraints.NotBlank;
+
 
 @Data
 public class PlayerForm {

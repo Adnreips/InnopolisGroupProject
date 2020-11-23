@@ -9,13 +9,6 @@ import org.springframework.stereotype.Service;
 import ru.innopolis.services.games.Game;
 
 
-/**
- * PlayDice
- *
- * @author "Andrei Prokofiev"
- */
-
-
 @Service
 public class GameDice extends Game {
 

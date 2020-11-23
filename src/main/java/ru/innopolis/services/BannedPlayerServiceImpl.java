@@ -9,6 +9,7 @@ import ru.innopolis.models.State;
 import ru.innopolis.models.User;
 import ru.innopolis.repositories.UsersRepository;
 
+import java.util.ArrayList;
 import java.util.Optional;
 
 /**
@@ -37,4 +38,5 @@ public class BannedPlayerServiceImpl implements BannedPlayerService {
         user1.setState(State.ACTIVE);
         usersRepository.save(user1);
     }
+
 }

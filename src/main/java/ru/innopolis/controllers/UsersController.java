@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import ru.innopolis.repositories.UsersRepository;
 import ru.innopolis.services.BannedPlayerService;
 
-/**
- *
- */
+
 @Controller
 public class UsersController {
     @Autowired

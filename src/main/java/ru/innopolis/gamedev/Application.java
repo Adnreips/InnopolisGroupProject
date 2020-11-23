@@ -11,11 +11,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import ru.innopolis.NotificationClient;
 
-/**
- * @author 18395435
- * @created_at 07/07/2020 - 14:54
- * @project game-project
- */
 
 @SpringBootApplication
 @ComponentScan(basePackages = "ru.innopolis")

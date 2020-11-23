@@ -6,12 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.innopolis.NotificationClient;
 
-/**
- * SimpleEmailExampleController
- *
- * @author "Andrei Prokofiev"
- */
-
 @Controller
 public class SimpleEmailExampleController {
 
@@ -21,11 +15,16 @@ public class SimpleEmailExampleController {
     @RequestMapping("/sendSimpleEmail")
     public String sendSimpleEmail() {
 
-        SimpleMailMessage message = new SimpleMailMessage();
+        try{
+            SimpleMailMessage message = new SimpleMailMessage();
         message.setTo("109a@mail.ru");
         message.setSubject("Тестовое письмо");
         message.setText("Привет из игры");
         service.notifyUser(message);
+        }catch (Exception o){
+
+        }
+
 
         return "redirect:/";
     }

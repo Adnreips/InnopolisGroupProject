@@ -14,12 +14,6 @@ import ru.innopolis.transfer.UserDto;
 import static ru.innopolis.transfer.UserDto.from;
 
 
-/**
- * UserController
- *
- * @author "Andrei Prokofiev"
- */
-
 @Controller
 public class UserController {
 

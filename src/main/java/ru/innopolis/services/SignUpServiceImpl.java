@@ -10,10 +10,6 @@ import ru.innopolis.models.User;
 import ru.innopolis.repositories.UsersRepository;
 
 
-/**
- * @author
- */
-
 @Service
 public class SignUpServiceImpl implements SignUpService {
 

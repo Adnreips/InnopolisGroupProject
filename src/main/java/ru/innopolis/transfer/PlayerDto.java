@@ -5,11 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import ru.innopolis.models.Player;
 
-/**
- * PlayerDto
- *
- * @author "Andrei Prokofiev"
- */
+
 
 @Data
 @AllArgsConstructor

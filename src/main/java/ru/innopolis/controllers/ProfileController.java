@@ -23,9 +23,6 @@ import java.util.List;
 import static ru.innopolis.transfer.UserDto.from;
 
 
-/**
- *
- */
 @Controller
 public class ProfileController {
 

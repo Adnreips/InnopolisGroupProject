@@ -12,11 +12,7 @@ import ru.innopolis.transfer.UserDto;
 
 import static ru.innopolis.transfer.UserDto.from;
 
-/**
- * CreatPlayerServiceImpl
- *
- * @author "Andrei Prokofiev"
- */
+
 
 @Service
 public class CreatPlayerServiceImpl implements CreatPlayerService {
